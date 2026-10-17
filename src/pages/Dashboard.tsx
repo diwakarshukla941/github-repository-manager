@@ -412,24 +412,7 @@ const Dashboard = () => {
                     )}
                 </section>
 
-                {/* Settings */}
-                <section
-                    id="settings"
-                    className="scroll-mt-24 rounded-xl border border-[#30363d] bg-[#161b22] p-5 sm:p-6"
-                >
-                    <h2 className="text-lg font-semibold">Settings & Security</h2>
-                    <p className="mt-2 text-sm leading-6 text-gray-400">
-                        This app communicates directly with GitHub from your
-                        browser. Your access token is stored in session storage
-                        for the current browser tab session. It remains
-                        accessible to JavaScript running on this page, so only
-                        use this app locally and never share your token.
-                    </p>
-                    <p className="mt-3 text-sm leading-6 text-gray-400">
-                        Repository deletion is permanent. Confirm the selected
-                        repositories carefully before proceeding.
-                    </p>
-                </section>
+
             </div>
 
             {selectedRepos.length > 0 && (
